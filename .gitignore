@@ -1,0 +1,75 @@
+# Haskell
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# Stack
+.stack-work/
+stack.yaml.lock
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+.npm
+.yarn-integrity
+
+# Build artifacts
+build/
+target/
+
+# Package files
+*.tar.gz
+*.zip
+
+# Project specific
+# Keep the Calculator-Standalone folder but ignore its executables
+Calculator-Standalone/*.exe
+Calculator-Standalone/*.hi
+Calculator-Standalone/*.o
